@@ -1,7 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 
-const starwarsCard = props => {
+const StarwarsCard = props => {
   return (
     <div className="starwarsCard">
       {props.data &&
@@ -22,4 +22,4 @@ const mapStateToProps = state => ({
   data: state.starwarsReducer.starwarsData.results
 })
 
-export default connect(mapStateToProps)(starwarsCard)
+export default connect(mapStateToProps)(StarwarsCard)

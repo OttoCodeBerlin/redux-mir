@@ -11,11 +11,10 @@ import Starwars from './components/starwars/starwars'
 //
 
 function App() {
-  const store = {}
   return (
     <Provider store={store}>
       <div className="App">
-        <h1>redux</h1>
+        <h1>A weird Redux exercise</h1>
         <Starwars />
         {/* <Weather /> */}
       </div>
